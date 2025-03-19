@@ -19,6 +19,7 @@ h2{
 }
 .head{
   justify-content: space-between;
+  padding: 5px 0px;
 }
 .header{
   background-color: #fff;
