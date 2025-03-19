@@ -407,7 +407,9 @@ hr{
 .active .accordion-content2 {
   display: block;
 }
-
+.form-select{
+  background-size: 17px 17px;
+}
 h4{
   color: #1E274F;
   font-size: 26px; 
@@ -588,98 +590,60 @@ font-size: 26px;
     z-index: 999;
     
 }
+.assam{
+  width: 200px;
+        height: 50px;
+}
+.nacc{
+  width:80px;
+  height:60px;
+}
+.form {
+ padding: 20px;
+}
+#enq {
+  font-size: 22px;
+}
+.abt-div{
+  margin-top: 20px;
+}
+.abt-box, .cur-text, .bvc{
+  margin-bottom: 20px;
+}
+h2{
+  margin-bottom: 10px;
+}
+.courd {
+  margin-top: 10px;
+}
+.bvc {
+  padding-top: 10px;
+}
+.purple {
+padding: 20px 20px;
+}
 .appli {
-    border-radius:0px;
-    text-align:center;
+  border-radius: 0px;
+  text-align: center;
 }
-.text-gray {
-font-size: 10px;
+h4 {
+  font-size: 20px;
 }
-.infra-te img{
-    width:50px;
-    height:50px;
+.part-img {
+ text-align: center;
 }
-#infrad {
-  font-size: 24px;
+.b-r {
+  border-bottom: 1px solid #fff;
+  border-right: none;
 }
-.curi-text {
-    margin-top: 30px;
-    padding: 0px 0px 0px 20px;
+.b-rr {
+  border-bottom: 1px solid #000;
+  border-right:none;
 }
-.cont {
-    margin-top: 0px;
+.care-img{
+ margin-bottom: 20px;
 }
-.integ {
-    margin-bottom: 20px !important;
-}
-.expe {
-    text-align: center;
-}
-
-.mt-5 {
-     margin-top: 0 !important; 
-}
-.rec-txt{
-    margin-bottom:20px;
-}
-.sliders{
-    width:100%;
-}
-#global {
-font-size: 19px;
- margin-bottom: 0px;  
-}
-#lock {
-    font-size: 16px;
-}
-.monty{
-    display:none;
-}
-.monts{
-    display:block;
-    margin-bottom:20px;
-}
-.copy{
-    margin-bottom:60px;
-}
-#copies{
-    font-size:14px;
-}
-.lers{
-  display:none;
-}
-.goole img{
-  width: 150px;
-}
-.digi2 {
-  padding: 10px;
-}
-.circl3{
-  padding: 9px 13px 9px 25px;
-}
-.integ{
-  display:none;
-}
-.integt{
-  display:block;
-}
-.circle {
-  width: 110px;
-  max-width: none;
-  height: 110px;
-  border: 5px solid #015D8C;
-}
-#frame {
-  padding-top: 27px;
-  font-size: 14px;
-}
-#states{
- font-size: 11px;
-}
-.banner2, .infra{
-  display: none;
-}
-.banner4, .banner5, .infrat{
-  display:block
+.adf {
+padding: 2px 30px 0px 30px;
 }
 }
