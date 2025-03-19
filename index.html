@@ -690,7 +690,7 @@
   </section>
 
 
-  <section class="testimonial mb">
+  <section class="testimonial">
     <div class="container">
       <h2 class="text-center">Our Testimonial</h2>
       <div class="owl-carousel owl-theme">
@@ -761,41 +761,66 @@
   <section class="awards mb">
     <div class="container">
       <h2 id="awrd">Awards and Accolades</h2>
-      <div class="owl-carousel owl-theme">
+      <div class="owl-carousel owl-theme owl-banner" data-owl-carousel='{
+        "margin": 10, 
+        "nav":true,
+        "dots":false, 
+        "loop":true,
+        "autoplay":true,
+        "autoplayTimeout":4000,
+        "smartSpeed":1050,
+        "responsive":{"0":{"items":1}, "600":{"items":2},"1000":{"items":4}}
+    }'>
         <div class="item">
           <span><img src="assets/img/awads.png" width="100%"></span>
           <div class="award-txt-wrap">
-            <p style="text-align:center;"> <b style="color:#006cb5">Govt. Of West Bengal</b>
-              Tutopia & ABP Ananda
-              Free Subscription Distribution</p>
+           <h5>UNIVERSITY OF 
+            THE YEAR</h5>
+            <hr>
+            <p class="text-white">Among 0-10 years 
+              in existence</p>
           </div>
         </div>
         <div class="item">
           <span><img src="assets/img/awads.png" width="100%"></span>
           <div class="award-txt-wrap">
-            <p style="text-align:center;"><b style="color:#006cb5">Zee 24 Ghanta</b><br>
-              Education Excellence
-              Award July-2021</p>
+           <h5>UNIVERSITY OF 
+            THE YEAR</h5>
+            <hr>
+            <p class="text-white">Among 0-10 years 
+              in existence</p>
           </div>
         </div>
         <div class="item">
           <span><img src="assets/img/awads.png" width="100%"></span>
           <div class="award-txt-wrap">
-            <p style="text-align:center;"><b style="color:#006cb5">Zee Hindustan</b><br>
-              Uddan Award
-              September-2021</p>
+           <h5>UNIVERSITY OF 
+            THE YEAR</h5>
+            <hr>
+            <p class="text-white">Among 0-10 years 
+              in existence</p>
           </div>
         </div>
         <div class="item">
           <span><img src="assets/img/awads.png" width="100%"></span>
           <div class="award-txt-wrap">
-            <p style="text-align:center;"><b style="color:#006cb5">Promising Startup </b><br>By Hon'ble
-              Union Minister Ashwini Vaishnaw<br>
-              December-2021</p>
+           <h5>UNIVERSITY OF 
+            THE YEAR</h5>
+            <hr>
+            <p class="text-white">Among 0-10 years 
+              in existence</p>
           </div>
         </div>
       </div>
     </div>
+  </section>
+
+  <section class="faqs mb">
+  <div class="container">
+    <div class="text-center">
+     <h2>Freuently Asked Questions</h2>
+    </div>
+  </div>
   </section>
 
   <section class="copy">
@@ -978,7 +1003,15 @@
       });
     });
   </script>
-  
+   
+   <script>
+    var $carousel = $('[data-owl-carousel]');
+ if ($carousel.length) {
+     $carousel.each(function (index, el) {
+         $(this).owlCarousel($(this).data('owl-carousel'));
+     });
+ }
+   </script>
 
 </body>
 
