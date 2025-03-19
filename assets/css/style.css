@@ -15,6 +15,7 @@ h2{
   color: #1E274F;
   font-weight: 600;
   font-size: 32px;
+  margin-bottom: 20px;
 }
 .head{
   justify-content: space-between;
@@ -377,7 +378,35 @@ hr{
   transform: translate(-50%, -50%);
   color: #bebebe;
 }
-
+.accordion2 {
+  width: 100%;
+  
+  margin: auto;
+}
+.accordion-item2 {
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.accordion-header2 {
+  background: #f1f1f1;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordion-content2 {
+  display: none;
+  padding: 10px;
+  background: white;
+  border-top: 1px solid #ccc;
+}
+.active .accordion-content2 {
+  display: block;
+}
 
 h4{
   color: #1E274F;
