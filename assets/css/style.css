@@ -379,6 +379,17 @@ height:80px;
 .carrer-text h5{
   font-size: 18px;
 }
+.job-img{
+  position: relative;
+}
+.job-text{
+  position: absolute;
+  bottom: 3%;
+  left: 5%;
+  background-color: #3DB166;
+  padding: 10px;
+  color: #fff;
+}
 .con-text{
   padding: 30px;
 }
