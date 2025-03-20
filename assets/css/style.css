@@ -28,7 +28,9 @@ h2{
   z-index: 1000;
   width: 100%;
 }
-
+.ban-mob{
+  display: none;
+}
 
 .bod-parent {
   position: relative;
@@ -769,5 +771,11 @@ padding: 2px 30px 0px 30px;
 .bod-description p {
   margin-bottom: 5px;
   font-size: 14px;
+}
+.ban-des{
+  display: none;
+}
+.ban-mob{
+  display: block;
 }
 }
