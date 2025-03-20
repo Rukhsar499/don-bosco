@@ -376,6 +376,14 @@ text-align: center;
 color: #fff;
 height:80px;
 }
+.summar{
+  margin-bottom: 10px;
+}
+.job-text p{
+  margin-bottom: 7px;
+  color: #fff;
+  font-size: 14px;
+}
 .carrer-text h5{
   font-size: 18px;
 }
@@ -386,7 +394,7 @@ height:80px;
   position: absolute;
   bottom: 3%;
   left: 5%;
-  background-color: #3DB166;
+  background-color: #3db166;
   padding: 10px;
   color: #fff;
 }
