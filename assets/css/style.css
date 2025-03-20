@@ -332,7 +332,7 @@ background: linear-gradient(185deg, rgba(61,177,102,1) 32%, rgba(26,75,43,1) 94%
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #2A008F;
-  width: 20px;
+  width: 30px;
   height: 2px;
 }
 .owl-theme .owl-dots .owl-dot span {
@@ -367,6 +367,17 @@ hr{
   font-size: 14px;
   color: #000;
   padding: 5px;
+}
+.carrer-text{
+  background: rgb(30,39,79);
+background: linear-gradient(6deg, rgba(30,39,79,1) 21%, rgba(54,76,176,1) 77%);
+padding: 10px;
+text-align: center;
+color: #fff;
+height:80px;
+}
+.carrer-text h5{
+  font-size: 18px;
 }
 .con-text{
   padding: 30px;
