@@ -393,9 +393,10 @@ height:80px;
 .job-text{
   position: absolute;
   bottom: 3%;
-  left: 5%;
+  margin: 15px;
+  /* left: 5%; */
   background-color: #3db166;
-  padding: 10px;
+  padding: 10px 15px;
   color: #fff;
 }
 .con-text{
@@ -601,7 +602,7 @@ font-size: 26px;
 }
 .owl-dots {
   position: absolute;
-  bottom: -3%;
+  bottom: -9%;
 }
 .circle {
   margin-top: 20px;
@@ -680,5 +681,15 @@ padding: 2px 30px 0px 30px;
 .logo-img {
   margin-top: 20px;
   text-align: center;
+}
+.ser-vices {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+.ser-vice {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
 }
 }
