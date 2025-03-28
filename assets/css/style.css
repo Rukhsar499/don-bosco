@@ -584,7 +584,7 @@ select option{
     position: fixed;
     bottom: 45%;
     left: -3%;
-    transform: rotate(90deg);
+    transform: rotate(270deg);
     
 }
 .mb{
