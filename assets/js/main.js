@@ -8,7 +8,12 @@
  }
 
 
-
+ $(window).on('load', function() {
+    setTimeout(()=>{
+        $('#exampleModal').modal('show');
+    },10000)
+    
+});
 
 
     
@@ -17,21 +22,4 @@
 
 
 
-// data aos
 
-
-  AOS.init();
-  AOS.refresh(); // initialize AOS animations
-  $(document).ready(function(){
-      $("body,html").animate({
-          scrollTop: 10
-      }, 1000);
-      $("body,html").animate({
-          scrollTop: 0
-      }, 1);
-  });
-
-// close-btn
-function closeSection() {
-  document.getElementById("closeable-section").style.display = "none";
-}
