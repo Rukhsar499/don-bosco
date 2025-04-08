@@ -135,7 +135,7 @@ a {
 .ser-vic {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 10px;
 }
 .facility{
   background-color: #1E274F;
@@ -735,8 +735,7 @@ h4 {
   border-right: none;
 }
 .b-rr {
-  border-bottom: 1px solid #000;
-  border-right:none;
+ border-right:none;
 }
 .care-img{
  margin-bottom: 20px;
@@ -790,5 +789,8 @@ padding: 2px 30px 0px 30px;
 }
 .toyg {
   font-size: 18px;
+}
+.ad-img{
+  margin-top: 20px;
 }
 }
